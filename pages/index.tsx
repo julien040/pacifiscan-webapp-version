@@ -79,7 +79,7 @@ const Home: NextPage = () => {
               audio={false}
               width={"100%"}
               screenshotFormat="image/jpeg"
-              screenshotQuality={0.01}
+              screenshotQuality={0.2}
               videoConstraints={videoConstraints}
               onUserMediaError={(e) => {
                 console.error(e);
