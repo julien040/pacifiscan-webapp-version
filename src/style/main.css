@@ -1,0 +1,129 @@
+body {
+  /* --------------------------------- Colors --------------------------------- */
+  --app-100: #fafaff;
+  --app-200: #eff0ff;
+  --app-300: #eae9ff;
+  --app-400: #dfddff;
+  --app-500: #d1ceff;
+  --app-600: #b9b4ff;
+  --app-700: #7879f1;
+  --app-800: #5d5fef;
+  --app-900: #2d2de0;
+  --app-1000: #0a0aff;
+
+  --gray-400: #9ca3af;
+  --gray-500: #6b7280;
+  --gray-600: #4b5563;
+
+  --error: #f87171;
+
+  /* Fonts */
+  font-family: Inter, sans-serif;
+
+  /* Background */
+  background-color: var(--app-200);
+
+  /* Center content */
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 16px 24px;
+  text-align: center;
+}
+
+p {
+  margin: 4px 0;
+}
+
+/* Sous titre */
+p.under {
+  margin-top: 12px;
+  margin-bottom: 24px;
+  color: var(--gray-500);
+}
+
+p.error {
+  color: var(--error);
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+h1 {
+  margin: 0 0;
+}
+
+svg.error-svg {
+  margin: 48px 24px;
+}
+
+ul.error {
+  list-style: outside;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+/* ---------------------------- Page d'un déchets ---------------------------- */
+
+div.dechet {
+  text-align: left;
+  margin-bottom: 48px;
+}
+
+div.titre-image {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--app-100);
+  padding: 16px 32px;
+  border-radius: 10px;
+  margin: 32px 0;
+}
+
+div.titre {
+  width: 80%;
+}
+
+@media only screen and (max-width: 768px) {
+  div.titre {
+    width: 100%;
+  }
+}
+
+h2.dechet {
+  color: var(--app-800);
+  margin: 8px 0;
+}
+h3.dechet {
+  margin: 8px 0;
+  font-size: 20px;
+}
+
+p.subtitle {
+  color: var(--gray-500);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+
+/* ---------------------------- Page des déchets ---------------------------- */
+
+div.item-dechet {
+  display: flex;
+  background-color: var(--app-400);
+  margin: 12px 0;
+  border-radius: 12px;
+  padding: 12px 16px;
+  align-items: center;
+}
+
+h2.item-dechet {
+  color: #3b82f6;
+  margin: 0;
+  margin-left: 8px;
+  font-size: 16px;
+  text-align: left;
+  text-decoration: none;
+}

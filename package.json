@@ -4,19 +4,27 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@flish/chakra-theme": "^1.2.2",
+    "@fontsource/inter": "^4.5.7",
+    "framer-motion": "^6.3.0",
     "next": "12.1.5",
     "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react-dom": "18.0.0",
+    "react-webcam": "^7.0.1",
+    "reflexbox": "^4.0.6"
   },
   "devDependencies": {
     "@types/node": "17.0.24",
     "@types/react": "18.0.5",
     "@types/react-dom": "18.0.1",
+    "@types/reflexbox": "^4.0.4",
     "eslint": "8.13.0",
     "eslint-config-next": "12.1.5",
     "typescript": "4.6.3"
