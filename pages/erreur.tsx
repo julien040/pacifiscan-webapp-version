@@ -18,10 +18,7 @@ const ErreurPage: NextPage = () => {
       </ul>
       <div style={{ margin: "12px" }}>
         <Link passHref href="/">
-          <button>Retourner à l&apos;accueil</button>
-        </Link>
-        <Link passHref href="/dechet">
-          <button>Voir la liste des déchets</button>
+          <button>Réessayer</button>
         </Link>
       </div>
     </div>

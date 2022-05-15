@@ -20,7 +20,7 @@ const DechetPage: NextPage = () => {
               <Image
                 loader={imageLoader}
                 src={element.image}
-                alt={element.Header}
+                alt="Icone"
                 width={48}
                 height={48}
               />

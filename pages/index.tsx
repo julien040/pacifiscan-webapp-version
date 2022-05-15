@@ -1,11 +1,9 @@
 import type { NextPage } from "next";
-import Webcam, { WebcamProps } from "react-webcam";
+import Webcam from "react-webcam";
 import Head from "next/head";
-import Link from "next/link";
 import { useRouter } from "next/router";
-import { useRef, useState, useEffect } from "react";
-import { Box, Flex } from "reflexbox";
-import LogoSVG from "../src/js/logo";
+import { useRef, useState } from "react";
+import { Flex } from "reflexbox";
 import { associationApi } from "../src/dechet/wastes";
 
 const videoConstraints = {
@@ -40,7 +38,7 @@ const Home: NextPage = () => {
       };
       try {
         const res = await fetch(
-          "https://api.pacifiscan.nsi-anova.ml/",
+          "https://detection-api.pacifiscan.org/",
           options
         );
 

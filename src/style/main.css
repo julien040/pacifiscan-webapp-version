@@ -63,16 +63,20 @@ ul.error {
   text-align: left;
 }
 
-/* ---------------------------- Page d'un déchets ---------------------------- */
+/* ---------------------------- Page d'un déchet ---------------------------- */
 
 div.dechet {
   text-align: left;
   margin-bottom: 48px;
 }
 
+img.dechet {
+  aspect-ratio: 1;
+}
+
 div.titre-image {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   background-color: var(--app-100);
@@ -83,6 +87,7 @@ div.titre-image {
 
 div.titre {
   width: 80%;
+  text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
@@ -94,10 +99,13 @@ div.titre {
 h2.dechet {
   color: var(--app-800);
   margin: 8px 0;
+  font-family: "Urbanist", sans-serif;
 }
 h3.dechet {
   margin: 8px 0;
   font-size: 20px;
+  margin-top: 32px;
+  font-family: "Urbanist", sans-serif;
 }
 
 p.subtitle {
