@@ -135,3 +135,25 @@ h2.item-dechet {
   text-align: left;
   text-decoration: none;
 }
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* --------------------------------- Footer --------------------------------- */
+
+div.download {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.itemDownload {
+  margin-right: auto;
+  margin-left: auto;
+}
