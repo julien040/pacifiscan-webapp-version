@@ -8,7 +8,7 @@ export const wastesType = {
     eviterTexte:
       "Pour réduire votre impact, utiliser des ampoules avec une meilleure efficience énergétique ou avec une meilleure durée de vie.",
     poids: 0.08,
-    sources: "http://geo.fr/, http://ademe.fr/, trecodec.nc",
+    sources: "geo.fr/, ademe.fr/, trecodec.nc",
     anneeDecomposition: 500,
     ouJeter: [
       "d_boulouparis",
@@ -148,7 +148,7 @@ export const wastesType = {
     eviterTexte:
       "Privilégiez les bouteilles avec plus de contenant. Puisqu’en verre, la bouteille peut être remplie à nouveau et être réutilisée",
     poids: 0.2,
-    sources: "http://earth.org/, usi.edu",
+    sources: "earth.org/, usi.edu",
     anneeDecomposition: 4000,
     ouJeter: [
       "d_6km",
@@ -202,7 +202,7 @@ export const wastesType = {
       "La production de carton nécessite la coupe d’arbre. Bien qu’issue de forêts gêrées, cela perturbe tout de même les ecosystèmes. De plus, le carton libère du méthane lors de sa décomposition",
     eviterTexte: "Privilégiez les produits avec le moins de sur-emballage.",
     poids: 0.1,
-    sources: "Ademe, http://regionalrecycling.org/",
+    sources: "Ademe, regionalrecycling.org/",
     anneeDecomposition: 0.04,
     ouJeter: [
       "d_6km",
@@ -239,7 +239,7 @@ export const wastesType = {
     eviterTexte:
       "Arrêter de fumer est un moyen d’éviter de produire des mégots",
     poids: 0.005,
-    sources: "http://conserve-energy-future.com/",
+    sources: "conserve-energy-future.com/",
     anneeDecomposition: 10,
     ouJeter: ["pn"],
   },
@@ -371,7 +371,7 @@ export const wastesType = {
     eviterTexte:
       "Privilégiez les masques lavables pour ne pas produire de déchets",
     poids: 0.01,
-    sources: "http://fishersci.ca/, ademe",
+    sources: "fishersci.ca/, ademe",
     anneeDecomposition: 450,
     ouJeter: ["pn"],
   },
@@ -384,7 +384,7 @@ export const wastesType = {
     eviterTexte:
       "Impossible d’éviter d’acheter des meubles à part si vous êtes ermite.",
     poids: 30,
-    sources: "http://wedesigngreen.com/, Ademe",
+    sources: "wedesigngreen.com/, Ademe",
     anneeDecomposition: 500,
     ouJeter: [
       "d_6km",
@@ -449,7 +449,7 @@ export const wastesType = {
       "Le pneu laissé au soleil risque de libérer du méthane dans l’atmosphère. De plus, le pneu est fait à partir de gomme synthétique tirée du pétrole",
     eviterTexte: "Entretenez vos pneus pour ne pas les abimer prématurement.",
     poids: 7,
-    sources: "http://ecogreenequipment.com/, playgroundprofessionals",
+    sources: "ecogreenequipment.com/, playgroundprofessionals",
     anneeDecomposition: 50,
     ouJeter: [
       "d_boulouparis",
@@ -496,7 +496,7 @@ export const wastesType = {
       "Etant fait de plastique, les stylos ne sont pas biodégradables. Il risque de se décomposer en micro plastique dans l’océan.",
     eviterTexte: "Utilisez des stylos à encre rechargeable",
     poids: 0.4,
-    sources: "http://conserve-energy-future.com/",
+    sources: "conserve-energy-future.com/",
     anneeDecomposition: 1000,
     ouJeter: ["pn"],
   },
@@ -509,7 +509,7 @@ export const wastesType = {
     eviterTexte:
       "Privilégiez les emballages plus denses au briques individuelles",
     poids: 0.1,
-    sources: "http://drinkpathwater.com/",
+    sources: "drinkpathwater.com/",
     anneeDecomposition: 5,
     ouJeter: ["pn"],
   },

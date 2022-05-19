@@ -37,10 +37,7 @@ const Home: NextPage = () => {
         body: JSON.stringify(payload),
       };
       try {
-        const res = await fetch(
-          "https://detection-api.pacifiscan.org/",
-          options
-        );
+        const res = await fetch("https://mabel.pacifiscan.org/", options);
 
         if (res.ok) {
           const json: { label: string } = await res.json();

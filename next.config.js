@@ -5,6 +5,8 @@ const nextConfig = {
     domains: ["img.icons8.com"],
     loader: "custom",
   },
+  poweredByHeader: false,
+  basePath: "/app",
 };
 
 module.exports = nextConfig;

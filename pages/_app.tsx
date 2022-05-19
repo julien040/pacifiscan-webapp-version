@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <LogoSVG />
       <Script
-        src="https://bidule.app.pacifiscan.org/latest.js"
+        src="https://dipper.pacifiscan.org/latest.js"
         strategy="afterInteractive"
       />
       <Component {...pageProps} />
