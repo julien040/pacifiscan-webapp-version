@@ -62,7 +62,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Scannez un objet</title>
       </Head>
-      <Flex flexDirection={"column"} alignItems="center">
+      <div className="flex">
         <h1>Scannez un déchet</h1>
         <p className="under">
           Avec le scanner de déchets, vous pouvez découvrir l&apos;impact de vos
@@ -95,7 +95,7 @@ const Home: NextPage = () => {
             <p>Veuillez patienter</p>
           </>
         )}
-      </Flex>
+      </div>
     </>
   );
 };

@@ -1,5 +1,5 @@
 body {
-  /* --------------------------------- Colors --------------------------------- */
+  /* Colors */
   --app-100: #fafaff;
   --app-200: #eff0ff;
   --app-300: #eae9ff;
@@ -28,6 +28,12 @@ body {
   margin: 0 auto;
   padding: 16px 24px;
   text-align: center;
+}
+
+div.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 p {
