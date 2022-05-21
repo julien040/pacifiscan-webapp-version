@@ -3,6 +3,7 @@ import imageLoader from "../src/js/imageLoader";
 import Image from "next/image";
 import Link from "next/link";
 import LogoSVG from "../src/js/logo";
+import Head from "next/head";
 import Script from "next/script";
 
 import "../src/style/main.css";
@@ -12,6 +13,10 @@ import "../src/style/button.css";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
+      <Head>
+        <title>Pacifiscan</title>
+        <meta name="description" content="Découvrez que faire de vos déchets" />
+      </Head>
       <LogoSVG />
       <Script
         src="https://dipper.pacifiscan.org/latest.js"

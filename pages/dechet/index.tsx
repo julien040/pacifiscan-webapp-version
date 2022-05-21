@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import { wastesType } from "../../src/dechet/wastes";
 import imageLoader from "../../src/js/imageLoader";
 import Link from "next/link";
+import Head from "next/head";
 import Image from "next/image";
 
 type ValueOf<T> = T[keyof T];
@@ -35,6 +36,9 @@ const DechetPage: NextPage = () => {
   }
   return (
     <div>
+      <Head>
+        <title>Déchets</title>
+      </Head>
       <h1>Déchets</h1>
       {dechets}
     </div>

@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import ErrorSVG from "../src/js/errorSVG";
 import { useRouter } from "next/router";
+import Head from "next/head";
 import Link from "next/link";
 
 const ErreurPage: NextPage = () => {
@@ -8,6 +9,9 @@ const ErreurPage: NextPage = () => {
   const erreur = router.query.erreur;
   return (
     <div>
+      <Head>
+        <title>Erreur</title>
+      </Head>
       <h1>{ErreurFriendlyName(erreur)}</h1>
       <ErrorSVG />
       <h2>Comment y remedier ?</h2>
