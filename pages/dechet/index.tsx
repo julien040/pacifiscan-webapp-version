@@ -18,6 +18,7 @@ const DechetPage: NextPage = () => {
           <a>
             <div className="item-dechet">
               <Image
+                unoptimized
                 loader={imageLoader}
                 src={element.image}
                 alt="Icone"

@@ -28,6 +28,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           <a href="https://pacifiscan.org/redirect/play-store">
             <div className="itemDownload">
               <Image
+                unoptimized
                 className="download"
                 width={48}
                 height={48}
@@ -41,6 +42,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           <a href="https://pacifiscan.org/redirect/app-store">
             <div className="itemDownload">
               <Image
+                unoptimized
                 className="download"
                 width={48}
                 height={48}

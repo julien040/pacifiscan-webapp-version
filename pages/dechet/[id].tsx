@@ -23,6 +23,7 @@ const DechetIDPage: NextPage<{
       </Head>
       <div className="titre-image">
         <Image
+          unoptimized
           className="dechet"
           loader={imageLoader}
           src={image}
