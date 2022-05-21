@@ -6,9 +6,10 @@ import { useRef, useState } from "react";
 import { Flex } from "reflexbox";
 import { associationApi } from "../src/dechet/wastes";
 
+// https://stackoverflow.com/questions/46981889/how-to-resolve-ios-11-safari-getusermedia-invalid-constraint-issue
 const videoConstraints = {
-  height: 640,
-  width: 480,
+  width: 640,
+  height: 480,
   facingMode: "environment",
 };
 
@@ -78,7 +79,7 @@ const Home: NextPage = () => {
               videoConstraints={videoConstraints}
               onUserMediaError={(e) => {
                 console.error(e);
-                if (e instanceof DOMException) {
+                if (typeof e === "object") {
                   router.push("/erreur?erreur=" + e.name);
                 } else {
                   router.push("/erreur");

@@ -40,11 +40,14 @@ function ErreurRemediation(erreur: string | string[] | undefined): string[] {
       ];
     case "NotReadableError":
       return ["Vérifiez qu'aucun autre programme n'utilise la caméra."];
-    case "OverconstrainedError":
-      return ["Vérifiez que votre appareil puisse afficher un aperçu."];
     case "SecurityError":
       return [
         "Vérifiez que vous avez bien autorisé l'accès à la caméra au niveau de votre système",
+      ];
+    case "OverconstrainedError":
+      return [
+        "Si vous êtes sur ordinateur, réessayez sur votre téléphone ou sur un navigateur autre que Safari",
+        "Si vous êtes sur téléphone, votre appareil n'est pas en capacité d'utiliser Pacifiscan. Réessayez sur un autre téléphone.",
       ];
     case "TypeError":
       return ["Vérifiez que vous avez bien autorisé l'accès à la caméra."];
@@ -52,7 +55,10 @@ function ErreurRemediation(erreur: string | string[] | undefined): string[] {
     case "ApiError":
       return ["Vérifier que vous êtes connecté à internet."];
     default:
-      return ["Fermez cette page et réessayez."];
+      return [
+        "Fermez cette page et réessayez.",
+        "Si l'erreur persiste, utilisez l'application Pacifiscan.",
+      ];
   }
 }
 
