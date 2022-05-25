@@ -24,19 +24,27 @@ function MyApp({ Component, pageProps }: AppProps) {
       />
       <Component {...pageProps} />
       <footer>
-        <Link href={"/dechet"}>
-          <a>
-            <button>Voir la liste des déchets</button>
-          </a>
-        </Link>
+        <div className="footerButton">
+          <Link href={"/dechet"}>
+            <a>
+              <button>Voir la liste des déchets</button>
+            </a>
+          </Link>
+          <Link href={"/"}>
+            <a>
+              <button style={{ marginLeft: "16px" }}>Page scan</button>
+            </a>
+          </Link>
+        </div>
+
         <div className="download">
           <a href="https://pacifiscan.org/redirect/play-store">
             <div className="itemDownload">
               <Image
                 unoptimized
                 className="download"
-                width={48}
-                height={48}
+                width={36}
+                height={36}
                 loader={imageLoader}
                 src="https://oncle-stan.pacifiscan.org/icons/play-store.png"
                 alt="Google Play"
@@ -49,8 +57,8 @@ function MyApp({ Component, pageProps }: AppProps) {
               <Image
                 unoptimized
                 className="download"
-                width={48}
-                height={48}
+                width={36}
+                height={36}
                 loader={imageLoader}
                 src="https://oncle-stan.pacifiscan.org/icons/app-store.png"
                 alt="AppStore"

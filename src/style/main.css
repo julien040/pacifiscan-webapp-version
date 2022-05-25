@@ -36,6 +36,11 @@ div.flex {
   align-items: center;
 }
 
+div.loading {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
 p {
   margin: 4px 0;
 }
@@ -155,8 +160,9 @@ a:active {
 div.download {
   margin-top: 48px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  font-size: 14px;
 }
 
 div.itemDownload {

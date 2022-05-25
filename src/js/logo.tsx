@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const LogoSVG = (props: SVGProps<SVGSVGElement>) => (
   <header>
-    <Link href="/">
+    <Link href="https://pacifiscan.org">
       <a>
         <svg
           xmlns="http://www.w3.org/2000/svg"

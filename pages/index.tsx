@@ -90,10 +90,10 @@ const Home: NextPage = () => {
             <button onClick={handleClick}>Découvrir l&apos;impact</button>
           </>
         ) : (
-          <>
+          <div className="loading">
             <p>Envoi de l&apos;image en cours...</p>
             <p>Veuillez patienter</p>
-          </>
+          </div>
         )}
       </div>
     </>
